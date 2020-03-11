@@ -9,3 +9,4 @@ github_username: RamiTae
 
 # Build settings
 markdown: kramdown
+asset_url: /assets
