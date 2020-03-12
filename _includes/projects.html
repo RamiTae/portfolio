@@ -7,23 +7,25 @@
 
     <!-- prettier-ignore -->
     {% for post in site.posts %}
-    <a href="{{post.url | relative_url}}" class="portfolio-box">
-      <img src="{{post.image}}" class="img-responsive" alt="" />
-      <div class="portfolio-box-caption">
-        <div class="portfolio-box-caption-content">
-          <div class="project-name">
-            {{post.title}}
+    <div class="col-lg-6 col-sm-12">
+      <a href="{{post.url | relative_url}}" class="portfolio-box">
+        <img src="{{post.image}}" class="img-responsive" alt="" />
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-name">
+              {{post.title}}
+            </div>
+            <div class="project-category text-faded">
+              {{post.description}}
+            </div>
+            <p class="text-faded">
+              {{post.project-date}}
+              <p>position: {{post.position}}</p>
+            </p>
           </div>
-          <div class="project-category text-faded">
-            {{post.description}}
-          </div>
-          <p class="text-faded">
-            {{post.project-date}}
-            <p>position: {{post.position}}</p>
-          </p>
         </div>
-      </div>
-    </a>
+      </a>
+  </div>
     {% endfor %}
   </div>
 </selection>
