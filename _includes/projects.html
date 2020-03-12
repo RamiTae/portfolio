@@ -1,0 +1,19 @@
+<!-- prettier-ignore -->
+<selection id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Projects</h2>
+        <hr class="primary" />
+      </div>
+    {% for project in site.data.projects %}
+      <div class="row">
+        </div>
+          {% for image in project.images %}
+            {% include {{ image.layout | append: ".html" }} item=image %}
+          {% endfor %}
+        </div>
+        {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+      <div>
+    {% endfor %}
+</selection>
