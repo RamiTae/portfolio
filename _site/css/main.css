@@ -299,3 +299,13 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #222; }
+
+.post-header {
+  display: block;
+  object-fit: cover;
+  border-radius: 0px;
+  width: 100%;
+  height: 30vh;
+  opacity: 1;
+  object-position: center 48.28%;
+  padding-top: 6vh; }
