@@ -88,10 +88,14 @@ aside {
     .navbar-default {
       background-color: transparent;
       border-color: rgba(255, 255, 255, 0.3); }
+      .navbar-default .navbar-right {
+        margin-right: 0; }
       .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
         .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
           color: white; }
+      .navbar-default .navbar > .container-fluid .navbar-brand {
+        margin-left: 0; }
       .navbar-default .nav > li > a,
       .navbar-default .nav > li > a:focus {
         color: rgba(255, 255, 255, 0.7); }

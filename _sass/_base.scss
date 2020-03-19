@@ -111,12 +111,18 @@ aside {
   @media (min-width: 768px) {
     background-color: transparent;
     border-color: rgba(white, 0.3);
+    .navbar-right {
+      margin-right: 0;
+    }
     .navbar-header .navbar-brand {
       color: rgba(white, 0.7);
       &:hover,
       &:focus {
         color: white;
       }
+    }
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 0;
     }
     .nav > li > a,
     .nav > li > a:focus {
