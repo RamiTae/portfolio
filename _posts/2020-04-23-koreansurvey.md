@@ -1,9 +1,9 @@
 ---
 layout: post
 permalink: /koreansurvey/
-title: "대국민 질문"
+title: "대국민 질문 (외주 프로젝트)"
 image: /assets/koreansurvey/01-main.png
-description: "외주 프로젝트<br/> 사회 이슈와 관련된 질문에 대한 유저들의 투표를 받는 간편 설문조사 웹앱입니다."
+description: "사회 이슈와 관련된 질문에 대한 유저들의 투표를 받는 간편 설문조사 웹앱입니다."
 position: "Back-end Developer"
 project-date: "2020.03 ~ 2020.04"
 ---
@@ -56,5 +56,7 @@ RDS 비용 절감을 위해 AWS RDS Aurora를 사용한 서버 리스 데이터�
 <br/>
 
 <center><img src="/assets/koreansurvey/02-browser.gif"><center/>
+
+<br/>
 
 <center><img src="/assets/koreansurvey/03-phone.gif"><center/>
