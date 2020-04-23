@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>RamiTae</title>
+  <link rel="shortcut icon" type="image⁄x-icon" href="/assets/icon.png" />
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css" />
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+</head>
+  <body>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="/#page-top">rami tae</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll" href="/#about">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/#skills">Skills</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/#projects">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/#experience">Experience</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="/#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+    <!-- prettier-ignore --><div class="post-header" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/koreansurvey/01-main.png');">
+  <div class="post container" style="padding-bottom: 4vh;">
+    <h1>대국민 질문</h1>
+    <h4 class="text-faded">외주 프로젝트<br/> 사회 이슈와 관련된 질문에 대한 유저들의 투표를 받는 간편 설문조사 웹앱입니다.</h4>
+    <div style="margin-top:20px">
+      2020.03 ~ 2020.04 <br />
+      position: Back-end Developer
+    </div>
+  </div>
+</div>
+<div class="post container">
+      <p><em><strong><a href="https://koreansurvey.com" target="\_blank">배포 주소 &gt;</a></strong></em></p>
+
+<hr />
+
+<h2 id="about">About</h2>
+
+<p>사회 이슈와 관련된 질문에 대한 유저들의 투표를 받는 간편 설문조사 웹앱입니다. 문항에 투표한 사람의 성별, 지역, 연령을 분석하여 그래프로 결과를 출력하여 보여줍니다. 어드민 대시보드도 함께 제작했습니다.</p>
+
+<h3 id="main-features">Main features</h3>
+
+<ul>
+  <li>사용자들은 운영자가 올린 질문에 대해 투표합니다.</li>
+  <li>운영자 및 사용자들은 문항에 투표한 사람의 성별, 지역, 연령을 분석한 그래프를 볼 수 있습니다.</li>
+  <li>NICE 인증을 사용하여 회원 가입합니다.</li>
+  <li>사용자는 원하는 질문이 없으면 질문신청을 할 수 있습니다.</li>
+</ul>
+
+<h4 id="admin-dashboard">admin dashboard</h4>
+
+<ul>
+  <li>어드민 대시보드는 운영자만 접근 가능합니다.</li>
+  <li>질문과 그 질문에 맞는 두 가지의 선택지를 생성할 수 있습니다. 각 선택지는 png 파일과 gif 파일 등의 이미지를 업로드 할 수 있습니다.</li>
+  <li>질문을 생성한 이후 배포하기 전까지 자유롭게 수정과 삭제를 할 수 있습니다. 배포 이후에는 배포를 취소하기 전까지 수정과 삭제가 불가능합니다.</li>
+  <li>사용자가 신청한 질문을 확인할 수 있습니다.</li>
+</ul>
+
+<h3 id="stack">Stack</h3>
+
+<ul>
+  <li>JavaScript / ExpressJS / Node.js / MySQL / Sequelize.js / <br />
+AWS(S3, CloudFront, ELB, Route53, Auto Scaling, RDS, EC2)</li>
+</ul>
+
+<hr />
+
+<h2 id="works">Works</h2>
+
+<p>예상 사용자 만 명을 견딤과 동시에 합리적인 비용의 AWS 아키텍처 설계.</p>
+
+<p>RDS 비용 절감을 위해 AWS RDS Aurora를 사용한 서버 리스 데이터베이스 구축.</p>
+
+<p>만 명의 예상 사용자를 감당하기 위해 AWS Elastic Load Balancing과 Auto Scaling group 사용.</p>
+
+<p>서버 관리의 부담을 줄이기 위해 AWS S3와 CloudFront를 사용해 https 프로토콜 웹사이트 배포.</p>
+
+<p>사용자 데이터 보호를 위해 휴대폰 번호를 암호화하여 데이터베이스에 저장.</p>
+
+<hr />
+
+<h2 id="service-gif">Service GIF</h2>
+
+<p><br /></p>
+
+<center><img src="/assets/koreansurvey/02-browser.gif" /><center />
+
+<center><img src="/assets/koreansurvey/03-phone.gif" /><center />
+</center></center>
+
+    </div>
+  </body>
+</html>
