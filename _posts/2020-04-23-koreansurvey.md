@@ -51,6 +51,12 @@ RDS 비용 절감을 위해 AWS RDS Aurora를 사용한 서버 리스 데이터�
 
 ---
 
+## AWS Architecture
+
+![AWS Architecture](/assets/koreansurvey/00-AWS Architecture.jpg){: width="100%"}
+
+---
+
 ## Service GIF
 
 <br/>
